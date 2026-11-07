@@ -202,6 +202,7 @@ plugins:
     enabled: true
     options:
       links:
+        Mudrock Software: https://mudrock.dev/
         GitHub: https://github.com/MudrockSoftware/blog.mudrock.dev
     layout:
       position: footer

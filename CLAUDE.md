@@ -68,6 +68,12 @@ content/
 - VPN posts go in `vpn/<tool>/`. Same rules as databases.
 - Inside an engine or tool folder, titles drop the engine name (`Upgrade (Docker)`, not `Postgres Upgrade (Docker)`). The folder already says it.
 
+## Branding and llms.txt
+
+- Publisher: MUDROCK SOFTWARE LTD, https://mudrock.dev/. The site is a public secure infrastructure guide and a showcase of the stable infrastructure we run ourselves. We do not sell infrastructure services; never write sales or "hire us" copy. Keep the home page mudrock.dev link and footer link.
+- `content/llms.txt` is served at `/llms.txt` for AI agents. When adding, moving or renaming a post or category, update it too. Use absolute `https://blog.mudrock.dev/...` URLs.
+- No hidden text or hidden instructions for AI. Attribution stays visible and honest.
+
 ## Links
 
 - Use full-path wikilinks with a label: `[[server-maintenance/rhel-derivatives/firewalld|firewalld]]`. Distro folders share file names, so short links are ambiguous.
