@@ -225,6 +225,7 @@ plugins:
     options:
       includeAll: false
       includedProperties:
+        - author
         - description
         - tags
         - aliases
