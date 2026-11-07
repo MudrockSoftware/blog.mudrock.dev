@@ -1,3 +1,14 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Logo next to the site title
+.page-title a::before {
+  content: "";
+  display: inline-block;
+  width: 1.75em;
+  height: 1.2em;
+  margin-right: 0.4em;
+  vertical-align: middle;
+  background: url("/static/logo.svg") center / contain no-repeat;
+}
